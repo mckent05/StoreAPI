@@ -1,0 +1,27 @@
+{
+  "name": "storeapiexpress",
+  "version": "1.0.0",
+  "description": "A store api using express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mckent05/StoreAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mckent05/StoreAPI/issues"
+  },
+  "homepage": "https://github.com/mckent05/StoreAPI#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}
