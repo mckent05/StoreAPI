@@ -1,6 +1,5 @@
 const productModel = require("../models/product")
 
-
 const getProducts = async(req, res) => {
   const { company, featured, numericFilters } = req.query
   let queryObject = {}
